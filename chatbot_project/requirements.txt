@@ -1,0 +1,25 @@
+# Phase 1: 환경 구성 - 기본 라이브러리
+# GPU 사용 가능한 환경 (Colab/로컬)
+
+# 핵심 라이브러리
+torch>=2.0.0
+transformers>=4.35.0
+datasets>=2.14.0
+
+# 효율적 학습 (QLoRA)
+peft>=0.6.0
+bitsandbytes>=0.41.0
+accelerate>=0.24.0
+
+# 유틸리티
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# 실험/시각화
+jupyter>=1.0.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# 나중에 추가될 것들 (Phase 5-6)
+# gradio>=4.0.0
+# fastapi>=0.104.0
